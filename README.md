@@ -29,19 +29,8 @@ Ideal para profissionais de segurança, desenvolvedores back-end e equipes de co
    git clone https://github.com/ppay-alvdavid/sechead-checker
    ```
 
-**(Opcional) Criar um ambiente virtual**
-
-python -m venv venv
-#### No Windows:
-venv\Scripts\activate
-### No Linux/Mac:
-source venv/bin/activate
-
 ### Instale as dependências:
 pip install -r requirements.txt
-
-# Configuração
-O arquivo de configuração headers_cwe.json encontra-se em /config e define os headers, CWEs associados e descrições.
 
 ---
 # Como Utilizar
