@@ -1,7 +1,6 @@
 # HTTP Security Headers Analyzer (sechead-checker)
 
 Ferramenta robusta e extensível para análise automática de cabeçalhos de segurança HTTP e detecção de headers sensíveis em websites.  
-Ideal para profissionais de segurança, desenvolvedores back-end e equipes de compliance.
 
 ---
 
