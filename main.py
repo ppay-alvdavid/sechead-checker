@@ -62,9 +62,9 @@ def print_cli_result(analysis, config):
                 valor = h.get('valor', '')
                 if h["header"].lower() == "x-xss-protection":
                     if h.get('cor') == 'verde':
-                        print(f"  {Fore.GREEN}{h['header']} (Desativado) → Valor: {valor}{Style.RESET_ALL}")
+                        print(f"  {Fore.GREEN}{h['header']} (Desativado, OK) {Style.RESET_ALL}")
                     else:
-                        print(f"  {Fore.YELLOW}{h['header']} (ATIVO) → Valor: {valor} - Ativar X-XSS-Protection não é recomendado{Style.RESET_ALL}")
+                        print(f"  {Fore.YELLOW}{h['header']} (ATIVO): Ativar X-XSS-Protection não é recomendado {Style.RESET_ALL}")
                 else:
                     print(f"  {Fore.GREEN}{h['header']}: {valor}{Style.RESET_ALL}")
             for h in data['missing_security_headers']:
@@ -88,9 +88,9 @@ def print_simple_batch_result(results, config=None):
                 valor = h.get('valor', '')
                 if h['header'].lower() == "x-xss-protection":
                     if h.get('cor') == 'verde':
-                        ativos.append(f"{Fore.GREEN}{h['header']} (Desativado, OK){Style.RESET_ALL}")
+                        ativos.append(f"{Fore.GREEN}{h['header']} (Desativado, OK) {Style.RESET_ALL}")
                     else:
-                        ativos.append(f"{Fore.YELLOW}{h['header']} (ATIVO): Ativar o X-XSS-Protection não é recomendado{Style.RESET_ALL}")
+                        ativos.append(f"{Fore.YELLOW}{h['header']} (ATIVO): Ativar o X-XSS-Protection não é recomendado {Style.RESET_ALL}")
                 else:
                     ativos.append(f"{Fore.GREEN}{h['header']}: {valor}{Style.RESET_ALL}")
             for h in cwe_data.get('missing_security_headers', []):
