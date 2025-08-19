@@ -8,7 +8,6 @@ Ideal para profissionais de segurança, desenvolvedores back-end e equipes de co
 ## Índice
 
 - [Instalação](#instalação)
-- [Configuração](#configuração)
 - [Como Utilizar](#como-utilizar)
   - [1. Scan individual (CLI)](#1-scan-individual-cli)
   - [2. Scan em lote (planilha-txt-csv)](#2-scan-em-lote-planilha-txt-csv)
