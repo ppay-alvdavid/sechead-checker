@@ -12,9 +12,6 @@ Ferramenta robusta e extensível para análise automática de cabeçalhos de seg
   - [2. Scan em lote (planilha-txt-csv)](#2-scan-em-lote-planilha-txt-csv)
   - [3. Visualização de resultados salvos](#3-visualização-de-resultados-salvos)
 - [Features Explicadas](#features-explicadas)
-- [Exportação de resultados](#exportação-de-resultados)
-- [Personalização do JSON de configuração](#personalização-do-json-de-configuração)
-- [Dicas e Limitações](#dicas-e-limitações)
 - [Requisitos](#requisitos)
 - [Licença](#licença)
 
