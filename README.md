@@ -23,13 +23,14 @@ Ferramenta robusta e extensível para análise automática de cabeçalhos de seg
 # Instalação
 
 **Clone este repositório:**
-   ```bash
-   git clone https://github.com/ppay-alvdavid/sechead-checker
-   ```
+```bash
+git clone https://github.com/ppay-alvdavid/sechead-checker
+```
 
 ### Instale as dependências:
+```bash
 pip install -r requirements.txt
-
+```
 ---
 # Como Utilizar
 O script principal é o main.py, que oferece três modos de operação:
