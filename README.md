@@ -69,31 +69,35 @@ python main.py
 
 3.2 Selecione um arquivo .json previamente salvo.
 
+---
+
 # Features Explicadas
 
-- Validação automática de HTTPS: Apenas domínios que respondem por HTTPS são analisados, outros são ignorados com aviso.
+- *Validação automática de HTTPS*: Apenas domínios que respondem por HTTPS são analisados, outros são ignorados com aviso.
 
-- Análise por CWE: Cada header é relacionado a uma CWE (Common Weakness Enumeration), facilitando diagnóstico técnico.
+- *Análise por CWE*: Cada header é relacionado a uma CWE (Common Weakness Enumeration), facilitando diagnóstico técnico.
 
-  - Saída colorida (colorama):
+- *Listagem de cores*:
 
-  - Verde: headers adequados
+  - *Verde*: headers adequados
 
-  - Vermelho: headers ausentes
+  - *Vermelho*: headers ausentes
 
-  - Amarelo: headers em estado de atenção (ex: X-XSS-Protection ativo)
+  - *Amarelo*: headers em estado de atenção (ex: X-XSS-Protection ativo)
 
-  - Magenta: headers sensíveis expostos
+  - *Magenta*: headers sensíveis expostos
 
-- Processamento em lote: Analise múltiplos domínios rapidamente a partir de arquivos de entrada.
+- *Processamento em lote*: Analise múltiplos domínios rapidamente a partir de arquivos de entrada.
 
-- Exportação de resultados: Relatórios podem ser exportados em JSON para documentação, compliance ou auditoria futura.
+- *Exportação de resultados*: Relatórios podem ser exportados em JSON para documentação, compliance ou auditoria futura.
 
-- Importação e visualização de relatórios: Importe e exiba arquivos de resultados antigos.
+- *Importação e visualização de relatórios*: Importe e exiba arquivos de resultados antigos.
 
-- Interface gráfica para seleção de arquivos: Não é necessário digitar caminhos manualmente graças à integração com o tkinter.
+- *Interface gráfica para seleção de arquivos*: Não é necessário digitar caminhos manualmente graças à integração com o tkinter.
 
-- Exportação de resultados: Ao fim de cada análise (individual ou em lote), você pode salvar o relatório completo no formato JSON. Este arquivo pode ser compartilhado, versionado ou aberto novamente na ferramenta para análise posterior.
+- *Exportação de resultados*: Ao fim de cada análise (individual ou em lote), você pode salvar o relatório completo no formato JSON. Este arquivo pode ser compartilhado, versionado ou aberto novamente na ferramenta para análise posterior.
+
+---
 
 # Requisitos
 - Python 3.7 ou superior
@@ -106,6 +110,8 @@ python main.py
   - colorama
   - tk
   - openpyxl
+
+---
 
 # Licença
 Este projeto está licenciado sob a The Unlicense, domínio público.
