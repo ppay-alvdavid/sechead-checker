@@ -43,7 +43,7 @@ python main.py;
 
 1.2 Digite o domínio ou URL desejado (ex: exemplo.com ou https://exemplo.com).
 
-1.3 O script faz a análise dos headers e mostra o resultado colorido no terminal.
+1.3 O script faz a análise dos headers e mostra o resultado no terminal.
 
 ### 2. Scan em lote (planilha-txt-csv)
 **Permite processar múltiplos domínios de uma só vez a partir de um arquivo de entrada.** Prepare uma planilha .xlsx, .xls, .csv ou .txt com cada host/domínio na primeira coluna.
