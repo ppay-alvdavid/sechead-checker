@@ -37,7 +37,7 @@ O script principal é o main.py, que oferece três modos de operação:
 ### 1. Scan individual (CLI)
 **Analise um único site pelo terminal.** 
 ```bash
-python main.py;
+python main.py
 ```
 1.1 Escolha a opção 1.
 
